@@ -1,0 +1,12 @@
+.header__menu-link {
+  color: rgb(7, 32, 114);
+  font-size: 56px;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: 0.3s ease;
+  text-transform: uppercase;
+}
+
+.header__menu-link:hover {
+  opacity: 0.6;
+}
