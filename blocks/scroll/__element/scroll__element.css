@@ -1,0 +1,9 @@
+.scroll__element {
+  width: 100%;
+  min-height: 100px;
+  background-color: coral;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
