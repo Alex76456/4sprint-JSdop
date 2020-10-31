@@ -1,0 +1,9 @@
+.order__list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(2, 223px);
+  column-gap: 36px;
+  row-gap: 23px;
+}

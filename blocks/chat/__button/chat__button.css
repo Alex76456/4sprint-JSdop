@@ -1,0 +1,11 @@
+.chat__button {
+  background: #C4C4C4;
+  border-radius: 8px;
+  width: 100px;
+  height: 100px;
+  transition: 0.3s ease;
+}
+
+.chat__button:hover {
+  opacity: 0.8;
+}

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>4sprint-JSextra</title>
-  <link rel="stylesheet" href="./pages/scroll.css">
+  <link rel="stylesheet" href="./pages/chat.css">
 </head>
 
 <body class="root">
@@ -20,17 +20,24 @@
       </nav>
     </header>
     <main>
-      <section class="scroll">
-        <div class="scroll__element">
-          <h1 class="scroll__title">Я большой прямоугольник</h1>
+      <section class="chat">
+        <div class="chat__popup">
+          <div class="chat__popup-area">
+            <p class="chat__popup-messages">Сообщения:</p>
+
+          </div>
+          <form class="chat__popup-form" name="chat-form">
+            <input class="chat__popup-input" type="text" name="message" placeholder="Вводите сообщение">
+          </form>
         </div>
+        <button class="chat__button" type="button"></button>
       </section>
     </main>
     <footer class="footer">
       <p class="footer__copyright">© 2020 Aleksey Logvenkin</p>
     </footer>
   </div>
-  <script src="./scripts/scroll.js"></script>
+  <script src="./scripts/chat.js"></script>
 </body>
 
 </html>

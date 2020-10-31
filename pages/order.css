@@ -1,0 +1,39 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/font.css');
+@import url('../blocks/root/root.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__menu/header__menu.css');
+@import url('../blocks/header/__menu-list/header__menu-list.css');
+@import url('../blocks/header/__menu-item/header__menu-item.css');
+@import url('../blocks/header/__menu-link/header__menu-link.css');
+@import url('../blocks/order/order.css');
+@import url('../blocks/order/__title/order__title.css');
+@import url('../blocks/order/__choice/order__choice.css');
+@import url('../blocks/order/__list/order__list.css');
+@import url('../blocks/order/__list-item/order__list-item.css');
+@import url('../blocks/order/__list-title/order__list-title.css');
+@import url('../blocks/order/__list-image/order__list-image.css');
+@import url('../blocks/order/__list-button/order__list-button.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
+@import url('../blocks');
+@import url('../blocks');
+@import url('../blocks');
+@import url('../blocks');
+@import url('../blocks');
+
+/*
+@import url('../blocks');
+@import url('../blocks');
+@import url('../blocks');
+@import url('../blocks');
+@import url('../blocks');
+@import url('../blocks');
+*/
+
+
+/*
+* {
+  outline: 1px solid red;
+}*/

@@ -1,0 +1,7 @@
+.main__title {
+  margin: 0;
+  color: rgb(7, 32, 114);
+  font-size: 96px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
