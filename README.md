@@ -7,6 +7,10 @@
 
 https://alex76456.github.io/4sprint-JSdop/
 
+**Ссылка figma:**
+
+https://www.figma.com/file/BnPwq8BwUIDn7l31aCPwdf/Maxim-Chechenev-JS-extra-tasks?node-id=0%3A1
+
 
 **Используемые технологии:**
 
