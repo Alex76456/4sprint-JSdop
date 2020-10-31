@@ -10,6 +10,7 @@
 @import url('../blocks/chat/chat.css');
 @import url('../blocks/chat/__popup/chat__popup.css');
 @import url('../blocks/chat/__popup/_opened/chat__popup_opened.css');
+@import url('../blocks/chat/__popup-area/chat__popup-area.css');
 @import url('../blocks/chat/__popup-messages/chat__popup-messages.css');
 @import url('../blocks/chat/__popup-form/chat__popup-form.css');
 @import url('../blocks/chat/__popup-input/chat__popup-input.css');
@@ -35,6 +36,8 @@
 @import url('../blocks');
 */
 
+
+/*
 * {
   outline: 1px solid red;
-}
+}*/
