@@ -1,3 +1,5 @@
 .chat__popup-messages {
   margin: 0;
+  word-wrap: break-word;
+  white-space: pre-line;
 }
