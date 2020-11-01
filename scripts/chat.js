@@ -23,7 +23,7 @@ let string = '\n \n'
 
 function submitForm(event) {
   event.preventDefault();
-  message.textContent = message.textContent + string + messageInput.value;
+  message.textContent = message.textContent + string + 'Вы: ' + messageInput.value;
   messageInput.value = '';
 };
 
