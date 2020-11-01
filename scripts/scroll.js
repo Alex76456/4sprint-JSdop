@@ -1,13 +1,18 @@
 const rectangle = document.querySelector('.scroll__element')
 
+let topPos = rectangle.offsetTop;
 
-function scrollHandler(e) {
-  if (window.scrollY > 1400) {
+function scrollHandler() {
+  //let scrollTop = window.pageYOffset;
+  //let scrollTop = document.documentElement.scrollTop || window.pageYOffset;
+  let scrollTop = document.documentElement.scrollTop;
+
+  if (scrollTop > topPos) {
     rectangle.classList.add('scroll__element_position_top');
-  } else {
+  } else if (scrollTop < topPos) {
     rectangle.classList.remove('scroll__element_position_top');
   }
 }
 
-
-document.addEventListener('scroll', scrollHandler);
+window.addEventListener('scroll', scrollHandler);
+//document.addEventListener('scroll', scrollHandler);
